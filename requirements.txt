@@ -1,0 +1,10 @@
+matplotlib
+mplcursors
+numpy
+pandas
+reportlab
+scikit_learn
+seaborn
+statsmodels
+tkcalendar
+xgboost
