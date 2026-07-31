@@ -65,9 +65,14 @@ source .venv/bin/activate
 ### 5. Installer les dépendances
 
 ```bash
+pip install pipreqs
+```
+```bash
+ pipreqs .
+```
+```bash
 pip install -r requirements.txt
 ```
-
 ### 6. Lancer l'application
 
 ```bash
