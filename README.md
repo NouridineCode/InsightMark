@@ -63,10 +63,15 @@ source .venv/bin/activate
 ```
 
 ### 5. Installer les dépendances
-
+###Installer pipreqs
+```bash
+py -m pip install pipreqs
+```
+###Générer le requirements.txt
 ```bash
 pipreqs . --force --mode no-pin --ignore venv,.venv,tests,docs
 ```
+###les installer
 ```bash
 pip install -r requirements.txt
 ```
